@@ -10,17 +10,6 @@ export class StarRatingComponent {
 
 
   onHover(ratingIdx: any){
-    // let stars = document.querySelectorAll(".star-icon");
-    // for(let i = 0; i <= ratingIdx; i++){
-    //   stars[i].classList.add("star-style");
-    // }
     this.rating = ratingIdx + 1;
   }
-
-  // onLeave(ratingIdx: any){
-  //   let stars = document.querySelectorAll(".star-icon");
-  //   for(let i = 0; i <= ratingIdx; i++){
-  //     stars[i].classList.remove("star-style");
-  //   }
-  // }
 }
